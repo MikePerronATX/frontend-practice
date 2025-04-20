@@ -47,6 +47,40 @@
         <p>I’m learning how to write proper HTML using semantic tags!</p>
       </article>
 
+      <section>
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+          <label for="name">Name:</label>
+          <input type="text" id="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" required />
+
+          <label for="messageInput">Message:</label>
+          <textarea
+            id="messageInput"
+            required
+            placeholder="Your message here..."
+          ></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+        <p id="confirmationMessage"></p>
+      </section>
+
+      <section>
+        <h2>Random Joke</h2>
+        <p id="jokeText">Click the button to get a joke!</p>
+        <button id="jokeBtn">Get Joke</button>
+      </section>
+
+      <section>
+        <h2>Check the Weather</h2>
+        <input type="text" id="cityInput" placeholder="Enter a city" />
+        <button id="getWeatherBtn">Get Weather</button>
+        <div id="weatherResult"></div>
+      </section>
+
       <section class="columns">
         <div class="column">
           <h3>Column 1</h3>
